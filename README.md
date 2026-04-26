@@ -8,29 +8,17 @@ aspects for the same reasons.
 
 ### Here are some of my projects
 
-- <b>MegaGB</b>: A Gameboy/Gameboy color emulator in C, with C++ frontend in SDL2 and minimal ImGui debug logging.
-  - <i>Areas explored:</i> Cycle accurate emulation of the Sharp SM83 (Z80 like) Processor. Pixel FIFO simulation for the PPU.
-    Interleaving DMA, Timers and scheduling. Targetting high accuracy and commercial ROMs. Building a disassembler and debug
-    tools.
-<hr>
+- <b>MegaGB</b>: A Gameboy/Gameboy color emulator in C <i>[Cycle accurate emulation of Sharp SM83 (Z80 like) Processor, Pixel FIFO simulation PPU,
+    DMA, Timers and scheduling]</i>
     
-- <b>MegaScript</b>: A high level embeddable bytecode interpreted scripting language in C, with experimental self hosted standard
-   lib support (JSON Parsing, HTTP/S) and DLL interfacing.
-  
-  - <i>Areas explored:</i> Recursive descent parsing in C, bytecode emission and virtual machine state handling. Anonymous functions,
-    OOP, Garbage collection, closures, VM-level support for coroutine and stack preservation and more.
-<hr>
+- <b>MegaScript</b>: A high level embeddable bytecode interpreted scripting language in C <i>[standard lib (JSON Parsing, HTTP/S), DLL interfacing,
+GC, Closures, Coroutines, and more]</i>
 
 ### What I'm currently working on
 
-- <b>MegaGBA</b>: A Gameboy Advance emulator in C, with C++ frontend in SDL2.
-  
-  - <i>Areas explored:</i> Emulating the ARM7TDMI core. Implementing a multilayer 2d graphics pipeline, with priority layering,
-    alpha blending and SFX. Adding runtime debugging tools and memory inspectors.
-<hr>
+- <b>MegaGBA</b>: A Gameboy Advance emulator in C <i>[Emulating the ARM7TDMI core, multilayer 2d graphics pipeline (priority layering,
+    alpha blending and SFX)</i>
 
 - <b>TesseractOS</b>: A 64 bit kernel in C and ASM with the goal of building a tinkerer's hobby OS with niche features and design ideas.
+   <i>[32 bit boot kernel, ELF loading, GDT/IDT, VGA driver]</i>
   (very initial stage)
-
-  - <i>Areas explored:</i> Building a 32 bit boot kernel for bootstrapping, minimal ELF loading, setting up GDT, IDT and a basic VGA driver.
-    
